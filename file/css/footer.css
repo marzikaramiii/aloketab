@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+footer{
+	background-color: #333333;
+	width: 100%;
+	padding: 10px;
+	float: right;
+	padding-bottom: 60px;
+
+}
+.footer2 #contactus {
+	float:right;
+	color:#8c8c8c;
+	line-height: 35px;
+}
+.footer2{
+	width: 100%;
+	border-bottom:1px solid #8c8c8c;
+	height:65px;
+}
+.footer2 #contactus li{
+	display: inline-block;
+	margin: 0 12px;
+}
+.footer #contactus{
+	
+}
+.footer2 #contactus li:hover{
+	color: #ff9933;
+	cursor: pointer;
+}
+.footer2 #contactus li a{
+	color: inherit;
+}
+#socialmedia li{
+	display: inline-block;
+	margin-left: 10px;
+}
+.icon{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	
+}
+.telegram{
+	background-image: url(../../pic/telegram-4.png);
+}
+.telegram:hover{
+	background-image: url(../../pic/telegram-3.png);
+	cursor: pointer;
+}
+.insta{
+	
+	background-image: url(../../pic/instagram-1.png);
+}
+.insta:hover{
+	background-image: url(../../pic/instagram.png);
+	cursor: pointer;
+}
+.twiter{
+
+	background-image: url(../../pic/twitter.png);
+}
+.twiter:hover{
+	background-image: url(../../pic/twiter2.png);
+	cursor: pointer;
+}
+.facebook{
+	background-image: url(../../pic/facebook-circular-logo-1.png);
+}
+.facebook:hover{
+	background-image: url(../../pic/facebook-circular-logo.png);
+	cursor: pointer;
+}
+.whatsup{
+	background-image: url(../../pic/whatsapp.png);
+}
+.whatsup:hover{
+	background-image: url(../../pic/whatsapp-1.png);
+	cursor: pointer;
+}
+#socialmedia{
+	float: left;
+	
+}
+h4{
+	font-weight: normal;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+.download ul li{
+	display: inline-block;
+	background-color: #ff9933;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px  #160D0D;
+	margin: 0 8px;
+	direction: rtl;
+	cursor: pointer;
+	
+
+}
+
+.download ul {
+	text-align: center;
+	
+}
+.namad{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	position: relative;
+	top:5px;
+	
+}
+.apple{
+	background-image: url(../../pic/apple-logo.png);
+	
+}
+.name{
+	margin-right: 5px;
+	line-height: 30px;
+}
+.windows{
+	background-image: url(../../pic/windos-8-logo.png);
+}
+.android{
+	background-image: url(../../pic/android-1.png);
+}
+
+footer ul
+{
+	margin: 0;
+}

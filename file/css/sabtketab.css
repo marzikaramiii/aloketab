@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:"b yekan";
+	src:url(../../fonts/Yekan.ttf) format('ttf'),
+	url(../../fonts/Yekan.eot) format('eot'),
+	url(../../fonts/Yekan.ttf) format('truetype');
+	
+	
+	}
+body{
+
+	font-family: "b yekan";
+	background-color: #1E1E1E;
+}
+#content{
+	width: 1200px;
+	height: 600px;
+	margin:0 auto;
+	background-color: rgba(0,0,120,.5);
+	margin-top:29px;
+	box-shadow: 1px 2px 3px #464545;
+	padding: 10px;
+	
+}
+.left{
+	width: 30%;
+	float:left;
+}	
+.left img{
+	width: 100%;
+	height: 600px;
+}
+.right{
+	width: 65%;
+	float: right;
+	padding: 5px;
+	text-align: center;
+	
+	}
+img.ax{
+	width: 110px;
+	height: 110px;
+		border-radius: 50%;
+	margin-left: 165px;
+	
+	margin-top: 15px;
+}
+form{
+	width: 100%;
+	height: 600px;
+	margin-right:10px;
+	
+}
+input.input{
+	margin: 0 auto;
+	width: 70%;
+	height: 30px;
+	background-color: inherit;
+	border: none; 
+	border-bottom: 1px solid #ff6633;
+	margin-right: 40px;
+	margin-bottom: 30px;color:white;
+	text-align: center;
+	font-family:"b yekan";
+}
+input.input:focus{
+	box-shadow: 2px 2px 3px #1E1E1E ;
+}
+
+#mozo{
+	margin-right: 40px;
+	color: white;
+}
+.mozo{
+	margin-right: 40px;
+	color: white;
+}
+#submit{
+	width: 75%;
+	border:1px solid #ff6633; 
+	margin-right: 40px;
+	background-color: inherit;
+	padding: 5px;
+	color:white;
+	cursor: pointer;
+	font-family:"b yekan";
+}
+#submit:hover{
+	background-color:#ff6633;
+	color: white;
+}
+#textarea{
+	background-color:inherit;
+	border: none; 
+	border-bottom: 1px solid #ff6633;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	width: 70%;
+	height: 70px;
+		font-family: "b yekan";
+	padding:5px;
+	border-top: 1px solid #ff6633;
+	color: white;
+	
+	
+	
+}

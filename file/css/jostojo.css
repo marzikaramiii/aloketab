@@ -1,0 +1,165 @@
+/* CSS Document */
+@font-face{
+	font-family:"b yekan";
+	src: url(../../fonts/Yekan.eot)format('eot'),
+		url(../../fonts/Yekan.ttf)format('ttf'),
+		url(../../fonts/Yekan.ttf) format('truetype');
+}
+
+#main{
+	text-align: center;
+	width: 100%;
+
+}
+a{
+	color:inherit;
+	text-decoration: none;
+}
+body{
+	margin: 0;
+	font-family: "b yekan";
+	
+}
+ul{
+	margin: 0;
+}
+
+.a li{
+	color: #ff9933;
+	display: inline-block;
+	margin-top: 10px;
+}
+.b{
+	float: right;
+	margin-right: 20px;
+	
+}
+.pic1{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#search2{
+	position: relative;
+}
+ #search2 input{
+	width: 600px;
+	text-align: right;
+	margin-top: 100px;
+	font-family: "b yekan";
+	 
+}
+.c{
+	
+	padding-left: 0px;
+	direction: rtl;
+	margin-top: 20px;
+}
+.c li{
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+	
+}
+li.active{
+	border-bottom: 2px solid #ff9933;
+}
+.bookstores{
+	margin-top: 20px;
+	width: 1000px;
+	box-shadow:  0px 1px 3px #ccc;
+	background-color: white;
+	position: relative;
+	height: 100px;
+	 
+}
+.list{
+	width: 1000px;
+	margin: 0 auto;
+}
+.pic2{
+	float: right;
+	max-height: 100px;
+	
+}
+.g{
+	text-align: right;
+	margin-right: 20px;
+	
+	color: #ff9933;
+	
+}
+.l{
+	text-align: right;
+	 margin: 2px;
+}
+#e{
+	background-color: white;
+	width: 80%;
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 150px;
+	box-shadow:1px 1px 2px 1px  #A09F9F  ;
+}
+.pic3{
+	float: right;
+}
+.but{
+	width:25PX; 
+	height: 25px;
+	color: white;
+	float: left;
+	position:absolute;
+	
+	background-color:  #ff9933;
+	text-align: center;
+	border-radius:4px;
+	font-size:15px;
+	bottom: 11px;
+	right: 228px;
+	
+	
+}
+.star{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../../pic/starsumempty.png);
+}
+#starsum .checked{
+	background-image: url(../../pic/starsum.png);
+}
+#starsum{
+	width: 125px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+	direction: rtl;
+}
+#f{
+	background-color: white;
+	width: 80%;
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 150px;
+	box-shadow:1px 1px 2px 1px  #A09F9F  ;
+}
+.iconsearch{
+	background-image: url("../../pic/s.png");
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	position: absolute;
+	top:109px;
+	left: 539px;
+	z-index: 5;
+}
+input{
+	position: relative;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+
